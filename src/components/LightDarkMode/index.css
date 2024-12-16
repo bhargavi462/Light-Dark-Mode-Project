@@ -1,0 +1,44 @@
+/* Write your CSS here */
+
+.darkmode {
+  background-color: black;
+  color: white;
+  height: 170px;
+  width: 300px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'roboto';
+  text-align: center;
+}
+
+.lightmode {
+  background-color: white;
+  color: black;
+  height: 170px;
+  width: 300px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'roboto';
+  text-align: center;
+  border: 1px solid black;
+}
+
+.custom-button {
+  height: 30px;
+  width: 80px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.bg-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
